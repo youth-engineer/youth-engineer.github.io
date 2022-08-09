@@ -1,0 +1,352 @@
+@charset "UTF-8";
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: auto;
+    position: relative;
+}
+
+.youthTitle {
+    height: auto;
+    width: 30%;
+    background-color: rgba(253, 215, 0, 1);
+}
+
+.youth-logo {
+    width: 30%;
+    height: auto;
+    transform: translate(50%, 30%);
+}
+
+.youthTitle h1 {
+    padding: 30px;
+    padding-top: 45px;
+    margin: 0;
+    padding-left: 60px;
+    font-size: 70px;
+    font-family: Monotype Corsiva;
+}
+
+.youthTitle ul {
+    margin-top: 70px;
+    padding-bottom: 150px;
+}
+
+.youthTitle li {
+    list-style: none;
+    color: white;
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+
+.youthTitle a:hover {
+    color: #b4532a;
+    transition: 0.5s;
+    
+    text-decoration: underline;
+}
+
+.youthTitle a {
+    text-decoration: none;
+    color: white;
+}
+
+.youth-img {
+    height: auto;
+    width: 80%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.newsContainer {
+    margin: 100px;
+    background-color: #fffbe5;
+    padding: 0;
+    height: 300px;
+}
+
+.newsBox {
+    height: 120px;
+    margin: 2px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.newsBlock {
+    height: 100%;
+    float: left;
+    width: 33%;
+    border-right: 2px solid #b4532a;
+    
+}
+
+.newsBlockend {
+    height: 100%;
+    float: left;
+    width: 33%;
+}
+
+.newsJenre {
+    height: 30px;
+}
+
+.newsJenre h4 {
+    float: left;
+    background-color: rgba(253, 215, 0, 1);
+    padding: 0 40px;
+    margin: 0 30px 0 30px;
+    
+}
+
+.newsJenre h5 {
+    float: left;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.newsText {
+    text-align: center;
+}
+
+.viewall {
+    float: right;
+    margin-right: 40px;
+}
+
+.viewall a {
+    text-decoration: none;
+    color: black;
+}
+
+.view {
+    margin: 0;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.containerTitle {
+    padding-top: 18px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aboutYouth {
+    height: 700px;
+    position: relative;
+}
+
+.youth {
+    width: 80%;
+    margin-left: auto;
+    background-color: rgba(253, 215, 0, 1);
+    height: 700px;
+    
+}
+
+.youth p {
+    margin: 50px 94px 0 238px;
+}
+
+.youthBtn {
+    position: absolute;
+    top: 380px;
+    left: 656px;
+    height: 30px;
+    width: 200px;
+    background-color: #b4532a;
+    padding: 30px;
+    color: white;
+    font-weight: 700px;
+    font-size:20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+
+
+.byBtn {
+    position: absolute;
+    top: 550px;
+    left: 656px;
+    height: 30px;
+    width: 200px;
+    background-color: #b4532a;
+    padding: 30px;
+    color: white;
+    font-weight: 700px;
+    font-size:20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutYouth img {
+    position: absolute;
+    top: 380px;
+    left: 150px;
+}
+
+.quest {
+    height: 800px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.questContainer {
+    width: 80%;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: rgba(255, 251, 229, 1);
+    height: 800px;
+}
+
+.questTitle {
+    text-align: center;
+    font-weight: 500px;
+    font-size: 30px;
+}
+
+.quest p {
+    text-align: center;
+}
+
+.questBox {
+    position: absolute;
+    top: 350px;
+    left: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.questBlock {
+    
+    height: 350px;
+    width: 33%;
+    border: 2px solid rgb(180, 83, 42);
+    margin-right: 110px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.quest-img {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+.questBtn {
+    background-color: rgba(253, 215, 0, 1);
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 35px;
+    margin-left: 35px;
+    padding: 0;
+}
+
+.questBtn h3 {
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.manager {
+    height: 550px;
+    background-color: rgba(253, 215, 0, 1);
+    
+}
+
+.managerContainer {
+    height: 100%;
+
+}
+
+
+
+.managerBlock {
+    height: auto;
+    
+    width: 80%;
+    margin: 0 auto;
+
+    
+}
+
+.managerBox {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    
+    width: 25%;
+    float: left;
+    
+    box-sizing: border-box;
+    padding-right: 20px;
+    text-align: center;
+    
+    border: 2px solid red;
+}
+
+.managerBox img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    transform: translateX(5%);
+}
+
+.managerName {
+    
+    margin: 0 auto;
+    transform: translate(5%, -50%);
+    width: 90%;
+    background-color: rgba(255, 251, 229, 1);
+}
+
+.managerName h3, p {
+    padding: 0;
+    margin: 0;
+}
+
+.managerView {
+    height: 50px;
+    width: 200px;
+    margin-top: 30px;
+    margin: 50px auto;
+    background-color: #b4532a;
+    text-align: center;
+    
+    color: white;
+    
+    font-size: 15px;
+}
+
+.managerView a {
+    text-decoration: none;
+    color: white;
+}
+
+.managerView h3 {
+    margin: 0 auto;
+    padding-top: 13px;
+    
+}
+
+footer {
+    height: 60px;
+}
+
+.footerYouth {
+    text-align: right;
+    margin-right: 40px;
+}
