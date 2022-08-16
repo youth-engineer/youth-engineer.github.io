@@ -247,6 +247,11 @@ header {
     background-color: blue;
 }
 
+.quest-img img{
+    width: 100%;
+    height: auto;
+}
+
 .questBtn {
     background-color: rgba(253, 215, 0, 1);
     width: 200px;
@@ -295,7 +300,7 @@ header {
     padding-right: 20px;
     text-align: center;
     
-    border: 2px solid red;
+    
 }
 
 .managerBox img {
