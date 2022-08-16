@@ -100,7 +100,7 @@ header a {
 
 .conseptTitle h1 {
     font-weight: normal;
-    font-family: 'Hiragino Mincho ProN', Courier, monospace;
+    font-family: serif, 'Hiragino Mincho ProN', Courier, monospace;
     margin: 0 50px 0 0;
     line-height: 2;
 }
