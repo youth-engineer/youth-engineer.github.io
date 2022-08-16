@@ -279,7 +279,7 @@ header {
     
     width: 80%;
     margin: 0 auto;
-
+    overflow: hidden;
     
 }
 
@@ -303,6 +303,7 @@ header {
     height: auto;
     margin: 0 auto;
     transform: translateX(5%);
+    
 }
 
 .managerName {
