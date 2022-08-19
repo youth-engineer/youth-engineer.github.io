@@ -357,6 +357,46 @@ header {
     margin: 0;
 }
 
+.sp_contens_container {
+    position: relative;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.sp_contents {
+    margin-top: 0;
+    background-color: #fdd700;
+    width: 40%;
+    color: black;
+    height: 100%;
+}
+
+.sp_contents h2 {
+    margin: 0;
+    padding-top: 20px;
+
+}
+
+.sp_contents p {
+    font-size: 14px;
+    margin: 0;
+    padding-top: 5%;
+    padding-right: 15%;
+    text-align: right;
+}
+
+.sp_contents_menus li {
+    list-style: none;
+}
+
+.sp_contents_img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 65%;
+    height: auto;
+}
+
 footer {
     height: 60px;
 }

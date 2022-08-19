@@ -12,12 +12,15 @@
 }
 
 .pc_none {
-    width: 400px;
+    width: 375px;
+    max-width: 375px;
+    margin: 0 auto;
 }
 
 .sp_youth-logo {
-    width: 100px;
-    height: auto;
+    width: auto;
+    height: 20px;
+    margin-left: 30px;
 }
 
 /*スマホのヘッダーの設定*/
@@ -32,7 +35,7 @@
 }
 
 .header__inner {
-    padding: 0 20px;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,6 +47,8 @@
 /* ヘッダーのロゴ部分 */
 .header__title {
     width: 80px;
+    margin: 0;
+    padding: 0;
 }
 
 /* ヘッダーのナビ部分 */
