@@ -121,7 +121,7 @@ header a {
 
 .contents-right {
     height: auto;
-    background-color: rgba(255, 215, 0, 1);
+    background-color: #ffd700;
     width: 80%;
     margin-left: auto;
     padding-top: 150px;
@@ -240,7 +240,7 @@ header a {
 
 .contents-left {
     height: auto;
-    background-color: rgba(255, 251, 229, 1);
+    background-color: #fffbe5;
     width: 80%;
     margin-right: auto;
     padding-top: 150px;
@@ -284,4 +284,141 @@ header a {
     font-size: 70px;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.sp_quest {
+    width: 90%;
+    background-color: #fffbe5;
+    margin: 50px auto;
+    padding-top: 20px;
+}
+
+.sp_quest h2 {
+    width: 60%;
+    margin: 0 auto 20px auto;
+    background-color: #ffd700;
+    font-size: 18px;
+    text-align: center;
+}
+
+.sp_quest p {
+    font-size: 14px;
+    margin: 0 auto;
+
+}
+
+.sp_quest span {
+    color: #b4532a;
+}
+
+.sp_quest_box {
+    width: 90%;
+    margin-left: auto;
+    background-color: #ffd700;
+}
+
+.sp_quest_box_re {
+    width: 90%;
+    margin-right: auto;
+    background-color: #fffbe5;
+}
+
+.sp_quest_box p {
+    font-size: 12px;
+}
+
+.sp_quest_box_re p {
+    font-size: 12px;
+}
+
+.sp_quest_title {
+    display: flex;
+    flex-direction: row;
+    transform: translateX(-9%);
+    padding-top: 15px;
+    align-content: center;
+    align-items: center;
+}
+
+.sp_quest_title_re {
+    display: flex;
+    flex-direction: row;
+    transform: translateX(9%);
+    padding-top: 15px;
+    align-content: center;
+    align-items: center;
+}
+
+.sp_quest_number {
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+
+}
+
+.sp_quest_number h1 {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.2em;
+}
+
+.sp_quest_owner {
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.sp_quest_owner h4, h2 {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.sp_quest_owner_re h4, h2 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.sp_quest_detail {
+    display: flex;
+    align-items: center;
+}
+
+.sp_quest_img {
+    transform: translateX(-20%);
+    
+}
+
+.sp_quest_img_re {
+    transform: translateX(20%);
+}
+
+.sp_quest_img img {
+    margin: 70px 0;
+}
+
+.sp_quest_img_re img {
+    margin: 70px 0;
+}
+
+.sp_quest_participation {
+    background-color: #fffbe5;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.sp_quest_participation h2 {
+    width: 60%;
+    text-align: center;
+    background-color: #ffd700;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.sp_quest_participation p {
+    font-size: 12px;
 }
