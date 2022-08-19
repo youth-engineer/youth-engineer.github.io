@@ -397,12 +397,46 @@ header {
     height: auto;
 }
 
+.sp_news_container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 0;
+    background-color: #fffbe5;
+    text-align: center;
+}
+
+.sp_news_box {
+    margin-top: 20px;
+}
+
+.sp_news_title {
+    background-color: #fdd700;
+    width: 40%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.sp_news_detail {
+    text-decoration: underline;
+}
+
+.sp_news_container h2 {
+    margin: 0;
+    
+}
+
+.sp_news_viewmore {
+    text-align: right;
+    text-decoration: underline;
+}
+
 footer {
     height: 60px;
 }
 
 .footerYouth {
     text-align: right;
-    margin-right: 40px;
+    margin-right: 5px;
 }
 
