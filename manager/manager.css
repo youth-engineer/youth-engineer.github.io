@@ -130,7 +130,7 @@ header a {
     position: absolute;
     top: 80%;
     right: 0;
-    background-color: rgba(255, 215, 0, 1);
+    background-color: #ffd700;
 }
 
 .manager-profile-left {
@@ -139,7 +139,7 @@ header a {
     position: absolute;
     top: 80%;
     left: 0;
-    background-color: rgba(255, 251, 229, 1);
+    background-color: #fffbe5;
 }
 
 .profile_title {
@@ -155,4 +155,62 @@ header a {
     margin-bottom: 0;
     margin-right: 0;
     padding-bottom: 10px;
+}
+
+.sp_use_manager {
+    width: 90%;
+    background-color: #fffbe5;
+    
+    
+    margin: 0 auto;
+}
+
+.sp_use_manager h2 {
+    text-align: center;
+}
+
+.sp_manager_right_box {
+    width: 90%;
+    margin-left: auto;
+    background-color: #ffd700;
+}
+
+.sp_manager_left_box {
+    width: 90%;
+    margin-right: auto;
+    background-color: #fffbe5;
+}
+
+.sp_porfile_block_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sp_porfile_block_left {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.sp_profile_box_right {
+    background-color: #fffbe5;
+}
+
+.sp_profile_box_left {
+    background-color: #ffd700;
+}
+
+.pc_none h6 {
+    text-decoration: underline;
+}
+
+.pc_none h5,h6 {
+    margin: 0 0 0 10px;
+    padding-top: 15px;
+    
+}
+
+.pc_none h2 {
+    text-align: center;
 }
