@@ -154,7 +154,7 @@ header a {
     margin: 100px auto;
     height: auto;
     width: 80%;
-    background-color: rgba(255, 251, 229, 1);
+    background-color: #fffbe5;
 }
 
 .projectTitle {
@@ -182,7 +182,7 @@ header a {
 }
 
 .project-former {
-    background-color: rgba(255, 215, 0, 1);
+    background-color: #ffd700;
     display: flex;
     flex-direction: row;
     margin-bottom: 40px;
@@ -197,3 +197,42 @@ header a {
     
 }
 
+.sp_main {
+    width: 90%;
+    background-color: #fffbe5;
+    margin: 0 auto 100px auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.sp_main h2 {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #ffd700;
+    font-size: 18px;
+}
+
+.sp_main h3 {
+    color: #b4532a;
+}
+
+.sp_main h4 {
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.sp_consept {
+    font-size: 35px;
+    text-decoration-line: underline;
+    font-family: serif;
+    line-height: 65px;
+    text-shadow: 1px 3px 8px;
+    margin: 10px auto;
+}
+
+.sp_consept span {
+    color: #b4532a;
+    text-decoration-line: underline;
+    text-decoration-color: #b4532a;
+
+}
