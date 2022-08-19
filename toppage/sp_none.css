@@ -45,7 +45,7 @@
   
 /* ヘッダーのロゴ部分 */
 .header__title {
-    width: 80px;
+    width: auto;
     margin: 0;
     padding: 0;
 }
