@@ -2,6 +2,10 @@
     .sp_none {
         display: none;
     }
+    footer {
+        background-color: #fdd700;
+        height: 24px;
+    }
 
 }
 
@@ -145,3 +149,12 @@
     top: -13px;
     transform: rotate(-45deg);
   }
+
+footer {
+    height: 60px;
+}
+
+.footerYouth {
+    text-align: right;
+    margin-right: 5px;
+}
