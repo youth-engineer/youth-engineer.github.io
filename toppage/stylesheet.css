@@ -350,6 +350,13 @@ header {
     
 }
 
+/*スマホデザイン*/
+.sp_header_img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
 footer {
     height: 60px;
 }
