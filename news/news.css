@@ -51,13 +51,6 @@ header a {
     color: white;
 }
 
-
-
-.top img {
-    width: 100%;
-    height: 480px;
-} 
-
 .newslogo h2{
     position: absolute;
     top: 326px;
@@ -70,3 +63,47 @@ header a {
     color: white;
     padding-top: 20px;
 }
+
+.main span {
+    color: #b4532a;
+}
+
+
+@media screen and (min-width:800px) {
+    .main h1 {
+        font-size: 100px;
+        margin: 0;
+        padding: 50px;
+    }
+    .main h2 {
+        font-size: 30px;
+
+    }
+    .main {
+        margin: 0 auto 0 100px;
+    }
+    
+    
+}
+
+@media screen and (max-width:800px) {
+    .main h1 {
+        font-size: 30px;
+        margin: 0;
+        padding: 20px;
+    }
+    .main h2 {
+        font-size: 24px;
+
+    }
+
+    .main p {
+        font-size: 12px;
+    }
+    .main {
+        margin: 0 auto 0 20px;
+    }
+    
+
+}
+
