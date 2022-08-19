@@ -62,6 +62,7 @@
     transform: translateX(100%);
     background-color: white;
     transition: ease .4s;
+    display: none;
   }
 
   .nav-items {
@@ -127,6 +128,7 @@
   /* ハンバーガーメニュークリック後のスタイル */
   .header__nav.active {
     transform: translateX(0);
+    display: block;
   }
   
   .hamburger.active span:nth-child(1) {
