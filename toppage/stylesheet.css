@@ -11,10 +11,12 @@ header {
     position: relative;
 }
 
+
+
 .youthTitle {
     height: auto;
     width: 30%;
-    background-color: rgba(253, 215, 0, 1);
+    background-color: #fdd700;
 }
 
 .youth-logo {
