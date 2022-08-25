@@ -5,8 +5,7 @@ $(function(){
         autoplay: true,
         autoplaySpeed: 1000,
         dots: true,
-        infinite: true,
-        
+        infinite: true,      
     })
 
     const ham = $('#js-hamburger');
