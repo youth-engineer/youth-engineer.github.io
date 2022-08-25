@@ -18,7 +18,7 @@ li {
 
 header {
     height: 80px;
-    width: 100%;
+    width: 1440px;
     background-color: rgba(255, 215, 0, 1);
     position: fixed;
     z-index: 10;
@@ -51,9 +51,18 @@ header a {
     color: white;
 }
 
+.top img {
+    width: 100%;
+    height: auto;
+} 
+
+.newslogo {
+    position: relative;
+}
+
 .newslogo h2{
     position: absolute;
-    top: 326px;
+    bottom: 20px;
     left: 156px;
     margin: 0;
     background-color: rgba(180, 83, 42, 1);
@@ -71,16 +80,18 @@ header a {
 
 @media screen and (min-width:800px) {
     .main h1 {
-        font-size: 100px;
-        margin: 0;
+        font-size: 37.5px;
+        margin: 0 auto;
         padding: 50px;
+        text-align: center;
     }
     .main h2 {
         font-size: 30px;
 
     }
     .main {
-        margin: 0 auto 0 100px;
+        width: 690px;
+        margin: 0 auto;
     }
     
     
@@ -88,9 +99,10 @@ header a {
 
 @media screen and (max-width:800px) {
     .main h1 {
-        font-size: 30px;
+        font-size: 28px;
         margin: 0;
         padding: 20px;
+        text-align: center;
     }
     .main h2 {
         font-size: 24px;
@@ -101,7 +113,7 @@ header a {
         font-size: 12px;
     }
     .main {
-        margin: 0 auto 0 20px;
+        margin: 0 20px;
     }
     
 
