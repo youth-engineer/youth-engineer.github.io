@@ -9,6 +9,10 @@ li {
     list-style: none;
 }
 
+.no-change-color {
+    color: black;
+}
+
 .header-menu:hover {
     text-decoration: underline;
     color: #b4532a;;

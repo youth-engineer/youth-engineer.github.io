@@ -98,6 +98,10 @@ header {
     height: 30px;
 }
 
+.no-change-color {
+    color: black;
+}
+
 .newsJenre h4 {
     float: left;
     background-color: rgba(253, 215, 0, 1);
