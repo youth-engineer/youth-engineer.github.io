@@ -98,7 +98,7 @@ header a {
     display: flex;
 }
 
-.news-explain h5, p {
+.news-explain h5 p {
     margin: 0 40px;
     text-align: center;
 }
@@ -131,6 +131,7 @@ header a {
         display: block;
         width: 800px;
         margin-right: 20px;
+        color: black;
       }
       .sidebar {
         width: 320px;
@@ -188,6 +189,7 @@ header a {
 
     .news_list {
         margin-top: 100px;
+        color: black;
     }
 
     .news_title {
