@@ -34,6 +34,11 @@ header a {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .headerContainer {
     padding: 15px 30px 15px 30px;
     
@@ -98,10 +103,18 @@ header a {
     display: flex;
 }
 
-.news-explain h5 p {
+.news-explain h5{
     margin: 0 40px;
     text-align: center;
+    
 }
+
+.news-explain p{
+    margin: 0 40px;
+    text-align: center;
+    
+}
+
 
 .news-explain h5 {
     padding-right: 20px;
@@ -148,6 +161,7 @@ header a {
 
       .news-explain {
         flex-direction: row;
+        margin: 40px;
       }
       .news_title {
         margin: 40px;
