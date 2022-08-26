@@ -24,7 +24,7 @@ header {
     height: 80px;
     width: 100%;
     max-width: 1440px;
-    background-color: rgba(255, 215, 0, 1);
+    background-color: #ffd700;
     position: fixed;
     z-index: 10;
 }
@@ -83,7 +83,81 @@ header a {
 }
 
 
+.news_contents {
+    display: flex;
+    padding: 20px;
+    border-top: 2px solid #b4532a;
+}
+
+.news-img img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+.news-explain {
+    display: flex;
+}
+
+.news-explain h5, p {
+    margin: 0 40px;
+    text-align: center;
+}
+
+.news-explain h5 {
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #ffd700;
+}
+
+
+
+.news_title h3 {
+    margin: 0;
+    text-align: center;
+}
+
+
+
 @media screen and (min-width:800px) {
+    /*ニュース一覧の設定*/
+    .news_container {
+        width: 1200px;
+        display: -webkit-flex;
+        display: flex;
+        margin: 100px auto;
+        justify-content: space-between;
+      }
+      .news_list {
+        display: block;
+        width: 800px;
+        margin-right: 20px;
+      }
+      .sidebar {
+        width: 320px;
+      }
+      .sidebar__item {
+        margin-bottom: 20px;
+      }
+      .sidebar__item--fixed {
+        position: sticky;
+        margin-bottom: 0;
+        top: 10px;
+        z-index: 1;
+      }
+
+      .news-explain {
+        flex-direction: row;
+      }
+      .news_title {
+        margin: 40px;
+    }
+
+      .news_title h3 {
+        font-size: 40px;
+      }
+
+    /*ニュース一覧の設定*/
+
     .main h1 {
         font-size: 37.5px;
         margin: 0 auto;
@@ -103,6 +177,25 @@ header a {
 }
 
 @media screen and (max-width:800px) {
+    .news-explain {
+        flex-direction: column;
+    }
+
+    .news_contents {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news_list {
+        margin-top: 100px;
+    }
+
+    .news_title {
+        margin: 20px auto;
+        
+    }
+    
+
     .main h1 {
         font-size: 28px;
         margin: 0;
