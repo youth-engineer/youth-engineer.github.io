@@ -11,7 +11,10 @@ header {
     position: relative;
 }
 
-
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .youthTitle {
     height: auto;
