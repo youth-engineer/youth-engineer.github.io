@@ -20,6 +20,15 @@ body {
   margin: 0 auto;
 }
 
+.youtube {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+.youtube iframe {
+  width: 100%;
+  height: 100%;
+}
+
 .pc_none {
     
     margin: 0 auto;
